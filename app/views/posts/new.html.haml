@@ -1,0 +1,54 @@
+%p.top テニスコミュニケーション
+.side-left
+.contents
+  %form.main-form
+    .input-box
+      %p.question レッスンについて
+      %input{type: 'radio', name: 'RadioGroup1', value: '満足している'}満足している
+      %input{type: 'radio', name: 'RadioGroup1', value: 'やや満足している'}やや満足している
+      %input{type: 'radio', name: 'RadioGroup1', value: 'どちらでもない'}どちらでもない
+      %input{type: 'radio', name: 'RadioGroup1', value: 'やや不満に感じている'}やや不満に感じている
+      %input{type: 'radio', name: 'RadioGroup1', value: '不満に感じている'}不満に感じている
+      %br
+      %textarea{cols: "100", name: "t_name", rows: "4", wrap: "hard", placeholder: "ご自由にご意見をご記入ください"} 
+      %p.question 施設の清掃状態について
+      %input{type: 'radio', name: 'RadioGroup2', value: '満足している'}満足している
+      %input{type: 'radio', name: 'RadioGroup2', value: 'やや満足している'}やや満足している
+      %input{type: 'radio', name: 'RadioGroup2', value: 'どちらでもない'}どちらでもない
+      %input{type: 'radio', name: 'RadioGroup2', value: 'やや不満に感じている'}やや不満に感じている
+      %input{type: 'radio', name: 'RadioGroup2', value: '不満に感じている'}不満に感じている
+      %br
+      %textarea{cols: "100", name: "t_name", rows: "4", wrap: "hard", placeholder: "ご自由にご意見をご記入ください"} 
+      %p.question フロントの接客対応について
+      %input{type: 'radio', name: 'RadioGroup3', value: '満足している'}満足している
+      %input{type: 'radio', name: 'RadioGroup3', value: 'やや満足している'}やや満足している
+      %input{type: 'radio', name: 'RadioGroup3', value: 'どちらでもない'}どちらでもない
+      %input{type: 'radio', name: 'RadioGroup3', value: 'やや不満に感じている'}やや不満に感じている
+      %input{type: 'radio', name: 'RadioGroup3', value: '不満に感じている'}不満に感じている
+      %br
+      %input{type: 'text', class: 'input-box__text', placeholder: "よかったフロントの名前をお聞かせください"}
+      %br
+      %textarea{cols: "100", name: "t_name", rows: "4", wrap: "hard", placeholder: "よかったことについてご記入ください"}
+      %br
+      %input{type: 'text', class: 'input-box__text', placeholder: "悪かったフロントの名前をお聞かせください"}
+      %br
+      %textarea{cols: "100", name: "t_name", rows: "4", wrap: "hard", placeholder: "悪かったことについてご記入ください"}
+      %p.question コーチの接客対応について
+      %input{type: 'radio', name: 'RadioGroup4', value: '満足している'}満足している
+      %input{type: 'radio', name: 'RadioGroup4', value: 'やや満足している'}やや満足している
+      %input{type: 'radio', name: 'RadioGroup4', value: 'どちらでもない'}どちらでもない
+      %input{type: 'radio', name: 'RadioGroup4', value: 'やや不満に感じている'}やや不満に感じている
+      %input{type: 'radio', name: 'RadioGroup4', value: '不満に感じている'}不満に感じている
+      %br
+      %input{type: 'text', class: 'input-box__text', placeholder: "よかったコーチの名前をお聞かせください"}
+      %br
+      %textarea{cols: "100", name: "t_name", rows: "4", wrap: "hard", placeholder: "よかったことについてご記入ください"}
+      %br
+      %input{type: 'text', class: 'input-box__text', placeholder: "悪かったコーチの名前をお聞かせください"}
+      %br
+      %textarea{cols: "100", name: "t_name", rows: "4", wrap: "hard", placeholder: "悪かったことについてご記入ください"}
+      %p.question その他、お気づきの点やご意見をご自由にご記入ください
+      %textarea{cols: "100", name: "t_name", rows: "4", wrap: "hard", placeholder: "ご自由にご意見をご記入ください"} 
+      %br
+      %input{type: 'submit', class: 'submit-btn', value: "送信"}
+.side-right
