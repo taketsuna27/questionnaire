@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.top {
+  font-size: 28px;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+}
+
+.side-left {
+  width: 300px;
+  height: calc(100vh - 100px);
+  
+  float: left;
+}
+
+.contents {
+  width: calc(100% - 600px);
+  float: left;
+  
+  
+  .question {
+    text-align: left;
+    margin-bottom: 3px;
+  }
+  .input-box__text {
+    width: 340px;
+    height: 25px;
+    margin: 5px 0px;
+  }
+  .radio {
+    
+  }
+}
+
+.input-box__text {
+  width: calc(100% - 1100px);
+}
+
+.side-right {
+  float: left;
+  width: 300px;
+  height: calc(100vh - 100px);
+  
+}
+
+textarea {
+  margin-top: 5px;
+}
